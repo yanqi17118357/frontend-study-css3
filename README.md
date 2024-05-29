@@ -18,3 +18,6 @@ These are my notes with CSS3 studying
 
 3. 主轴方向
 ![主轴方向](/public/主轴方向.png)
+
+4. 主轴换行方式
+![主轴换行方式](/public/主轴换行方式.png)
