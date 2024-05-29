@@ -15,3 +15,6 @@ These are my notes with CSS3 studying
 
 2. 伸缩容器、伸缩项目
 ![伸缩容器&伸缩项目](/public/伸缩容器&伸缩项目.png)
+
+3. 主轴方向
+![主轴方向](/public/主轴方向.png)
