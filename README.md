@@ -21,3 +21,7 @@ These are my notes with CSS3 studying
 
 4. 主轴换行方式
 ![主轴换行方式](/public/主轴换行方式.png)
+
+5. flex_flow
+> 请别用这种方式，分开写成`flex-direction` + `flex-wrap`吧
+![flex_flow](/public/flex_flow.png)
