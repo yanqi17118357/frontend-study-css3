@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .outer {
+      width: 600px;
+      height: 400px;
+      background-color: #454545;
+      margin: 0 auto;
+      /* 将该元素变为了伸缩容器 */
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      /* 主轴对齐方式 主轴起点对齐 --默认值*/
+      /* justify-content: start; */
+
+      /* 主轴对齐方式 主轴终点对齐 */
+      /* justify-content: end; */
+
+      /* 主轴对齐方式 主轴中点对齐 */
+      /* justify-content: center; */
+
+      /* 均匀分布 两端对齐 最常用 */
+      justify-content: space-between;
+
+      /* 均匀分布 两端距离是中间间隔的一半 */
+      /* justify-content: space-around; */
+
+      /* 均匀分布 两端距离与中间一致 */
+      /* justify-content: space-evenly; */
+
+    }
+    .inner {
+      width: 80px;
+      height: 80px;
+      background-color: #f5f5f5;
+      border: 1px solid #121212;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="outer">
+    <div class="inner">1</div>
+    <div class="inner">2</div>
+    <div class="inner">3</div>
+  </div>
+</body>
+</html>
