@@ -29,3 +29,8 @@ These are my notes with CSS3 studying
 6. 主轴对齐方式
 ![主轴对齐方式1](public/主轴对齐方式1.png)<br/>
 ![alt text](public/主轴对齐方式2.png)
+
+7. 侧轴对齐方式
+![alt text](public/侧轴对齐方式_一行1.png)<br/>
+![alt text](public/侧轴对齐方式_一行2.png)
+
