@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <title>Document</title> -->
+  <style>
+    .outer {
+      width: 400px;
+      height: 500px;
+      background-color: #454545;
+      margin: 0 auto;
+      /* 将该元素变为了伸缩容器 */
+      display: flex;
+      /* 主轴方向 */
+      flex-direction: row;
+      /* 主轴换行方式 */
+      flex-wrap: wrap;
+      /* 从主轴的起始侧对齐 */
+      justify-content: flex-start;
+
+      /* 侧轴的对齐方式（多行） 侧轴的起始位置对齐 */
+      /* align-content: flex-start; */
+
+      /* 侧轴的对齐方式（多行） 侧轴的中间位置对齐 */
+      /* align-items: center; */
+
+      /* 侧轴的对齐方式（多行） 侧轴的结束位置对齐 */
+      /* align-content: flex-end; */
+
+      /* 侧轴的对齐方式（多行） 伸缩项目之间的距离是相等的 是侧边距离的两倍 */
+      /* align-content: space-around; */
+
+      /* 侧轴的对齐方式（多行） 伸缩项目之间的距离是相等的 且侧边没有距离 */
+      /* align-content: space-between; */
+
+      /* 侧轴的对齐方式（多行） 伸缩项目之间的距离是相等的 且边缘距离也是一样的 */
+      /* align-content: space-evenly; */
+
+      /* 侧轴的对齐方式（多行） 侧轴的拉伸(前提 伸缩项目如果有高度 就拉伸不了了) 默认值 */
+      align-items: stretch;
+    }
+    .inner {
+      width: 100px;
+      /* height: 100px; */
+      background-color: #f5f5f5;
+      border: 1px solid #121212;
+      box-sizing: border-box;
+    }
+
+    .inner2 {
+      height: 130px;
+      font-size: 30px;
+    }
+
+    .inner3 {
+      height: 70px;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="outer">
+    <div class="inner">1</div>
+    <div class="inner inner2">2</div>
+    <div class="inner inner3">3</div>
+    <div class="inner">4</div>
+    <div class="inner">5</div>
+    <div class="inner">6</div>
+    <div class="inner">7</div>
+    <div class="inner">8</div>
+    <div class="inner">9</div>
+  </div>
+</body>
+</html>
