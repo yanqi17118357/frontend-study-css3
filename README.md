@@ -43,3 +43,7 @@ flex_shrink (缩)
 9. 基准长度
 `flex-basis`
 ![alt text](public/基准长度.png)
+
+10. flex复合属性
+`flex`
+![alt text](public/flex_复合属性.png)
