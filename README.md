@@ -37,5 +37,9 @@ These are my notes with CSS3 studying
 8. 伸缩项目_伸缩性
 flex_grow (伸)
 ![alt text](public/伸缩项目_伸缩性1.png)
-flex_grow (缩)
+flex_shrink (缩)
 ![alt text](public/伸缩项目_伸缩性2.png)
+
+9. 基准长度
+`flex-basis`
+![alt text](public/基准长度.png)
