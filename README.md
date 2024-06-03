@@ -34,3 +34,8 @@ These are my notes with CSS3 studying
 ![alt text](public/侧轴对齐方式_一行1.png)<br/>
 ![alt text](public/侧轴对齐方式_一行2.png)
 
+8. 伸缩项目_伸缩性
+flex_grow (伸)
+![alt text](public/伸缩项目_伸缩性1.png)
+flex_grow (缩)
+![alt text](public/伸缩项目_伸缩性2.png)
